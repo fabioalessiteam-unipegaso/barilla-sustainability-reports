@@ -9,6 +9,7 @@ Sito HTML+CSS (senza JS) per scaricare i report di sostenibilità di Barilla.
 4. L'URL del sito sarà `https://tuoutente.github.io/barilla-sustainability-reports/`.
 
 ## Linee guida green IT
-- Niente JS o framework pesanti.
+- Nessun JS o framework pesante.
 - CSS < 10 KB.
-- Solo link a PDF ufficiali Barilla.
+- Logo Barilla incluso via SVG leggero.
+- Solo link ai PDF ufficiali Barilla.

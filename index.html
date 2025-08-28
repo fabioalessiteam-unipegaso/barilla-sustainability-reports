@@ -5,23 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Report di Sostenibilità – Barilla S.p.A.</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Pagina statica e leggera per scaricare i report di sostenibilità di Barilla S.p.A.">
   </head>
   <body>
     <header class="site-header">
-      <h1>Report di Sostenibilità <span class="brand">Barilla</span></h1>
-      <p>Pagina statica (HTML+CSS) ottimizzata per consumare meno risorse computazionali.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Barilla_logo.svg" alt="Logo Barilla" class="logo">
+      <div>
+        <h1>Report di Sostenibilità <span class="brand">Barilla</span></h1>
+        <p>Pagina statica (HTML+CSS) ottimizzata per consumare meno risorse computazionali.</p>
+      </div>
     </header>
 
-    <main>
-      <h2>Ultimi report disponibili</h2>
-      <ul class="report-list">
-        <li><a href="https://www.esempio.com/barilla-sustainability-report-2023.pdf" target="_blank">Sustainability Report 2023</a></li>
-        <li><a href="https://www.esempio.com/barilla-sustainability-report-2022.pdf" target="_blank">Sustainability Report 2022</a></li>
-        <li><a href="https://www.esempio.com/barilla-sustainability-report-2021.pdf" target="_blank">Sustainability Report 2021</a></li>
-      </ul>
+    <main class="container">
+      <section>
+        <h2>Ultimo report disponibile</h2>
+        <ul class="report-list">
+          <li>
+            <article class="report-item">
+              <h3 class="report-title">Sustainability Report 2024 (Executive Summary)</h3>
+              <p class="report-meta">Formato: PDF · Fonte: Barilla Group</p>
+              <p class="report-actions">
+                <a class="btn" href="https://sustainabilityreport.barillagroup.com/pdf/barillareport2024_executive_summary_ita.pdf" target="_blank" rel="noopener">Scarica (ITA)</a>
+                <a class="btn" href="https://sustainabilityreport.barillagroup.com/pdf/barillareport2024_executive_summary_eng.pdf" target="_blank" rel="noopener">Scarica (ENG)</a>
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <p>Progetto didattico – Università Telematica Pegaso – CdS L-31. Tema 3</p>
     </footer>
   </body>
